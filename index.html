@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Care Connect - Health Hub</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="main-wrapper">
+  <div id="particles-js"></div>
+  <header>
+    <h1 class="glow-text">Care Connect</h1>
+    <p class="sub-text">Your AI-powered Health & Fitness Assistant</p>
+
+    <nav >
+      <ul>
+        <li><a href="index.html">Home</a></li><li><a href="chatbot.html">AI Chatbot</a></li><li><a href="health_tracking.html">Health Tracking</a></li>
+        <li><a href="smart_diet.html">Smart Diet</a></li>
+        <li><a href="fitness_coaching.html">Fitness Coaching</a></li>
+        
+        <li><a href="heart_game.html">Heart Game</a></li>
+        
+      </ul>
+    </nav>
+  
+  </header>
+  
+  <main>
+    <section class="hero">
+      <h2>Unlock Your Health Potential</h2>
+      <button class="green-button" onclick="startVoiceAssistant()">Voice Assistant</button>
+      <button class="green-button" onclick="openChatbot()">AI Chatbot</button>
+    </section>
+    
+    <section class="data-visualization">
+      <h2>Live Health Data</h2>
+      <canvas id="healthChart"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p><h2>&copy; 2025 Connectors Alliance Team - Healthier Future with AI.</h2></p>
+    <p>Project by <strong>Connectors Alliance</strong></p>
+  </footer>
+  </div>
+</body>
+</html>
